@@ -7,7 +7,7 @@ export const register = (user,history) => dispatch =>{
     axios.post('http://ec2-3-86-114-78.compute-1.amazonaws.com/api/v1/register',user)
         .then(res=>{
             console.log(res)
-            history.push('/')
+          //  history.push('/')
         })
         .catch(error=>{
             // dispatch({type:actionType.CATCH_ERROR, payload:error.res.data})

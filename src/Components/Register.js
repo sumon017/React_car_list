@@ -7,12 +7,12 @@ import {withRouter} from 'react-router-dom'
 function Register(props) {
 
     const [state, setState] = useState({
-        First_name: '',
-        Last_name: '',
-        Phone: '',
-        Email: '',
-        Password: '',
-        Confirm_password: '',
+        first_name: '',
+        last_name: '',
+        phone: '',
+        email: '',
+        password: '',
+        confirm_password: '',
         error: {}
     })
     const dispatch =useDispatch()
